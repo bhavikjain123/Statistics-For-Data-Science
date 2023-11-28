@@ -1,0 +1,74 @@
+VARIABLES : A variable is a property that can take on any value. 
+Ex- Height : 182,178,168,150, 160,170
+    Weight : 78,86,99, 100, 60, 68
+
+Two types of Variable:
+   a) Quantitative Variable: Measured numerically (add, subs, multi[ly, divide)
+            Two types: 
+                      1) Discrete (whole number, no. of bank accounts, no. of students) 
+                      2) Continuous (Height : 172.4, 160.7, 163.9 or Weight : 100, 99.5, 99.75)
+
+   b) Qualitative Variable : Based on some characteristocs we can define categorical variables. Ex: Gender(male & female).
+
+VARAIBLE MEASUREMENT SCALES
+1) Nominal: (Categorical data -> color, gender, type of flower)
+2) Ordinal : we focus more on the order, rank not on actual values. Ex: Rank of students not marks
+3) Interval : Order matters, value matters. (10-20, 20-30....)
+4) Ratio : 
+
+# Population (N): mean(mu)
+# Sample (n): mean(X Bar)
+
+
+CENTERAL TENDENCY
+1) MEAN
+2) Median
+3) MODE
+
+MEASURE OF DISPERSION (Dispersion = Spread)
+1) VARIANCE
+2 Standard Deviation
+
+PERCENTILE AND QUARTILE (Find Outliers)
+1) PERCENTILE:  is a vlaue below which a certain percentage of obs. lies
+   Formula : (# of values below x)/n * 100
+2) Quartile: opposite of percentile
+   Formula : (Percentile)/100 * (n+1)
+
+FIVE NUMBER SUMMARY (BOX PLOT)
+1) Minimum
+2) First Quartile (Q1)
+3) Median
+4) Third Quartile(Q3)
+5) Maximum
+
+OUTLIER DETECTION AND REMOVAL
+
+Ex: {1,2,2,2,3,3,4,5,5,5,6,6,6,6,7,8,8,9,27}
+[Lower Fence <-> Higher Fence]
+
+Lower fence = Q1-1.5(IQR)
+Higher Fence = Q3 + 1.5(IQR)
+
+IQR= Q3 - Q1
+
+Q1(25%) = 25/100*(19+1) =  5th => 3
+Q3(75%) = 75/100*(19+1) =  15th => 7
+i.e, IQR = 4
+
+Lower fence = 3- 1.5(4) = -1
+Higher fence = 7 + 1.5(4) = 13
+
+So, outlier will bwe removed
+
+1) Minimum = 1
+2) First Quartile (Q1) = 3
+3) Median = 5
+4) Third Quartile(Q3) = 7
+5) Maximum = 9
+This is waht we call BOX PLOT
+
+
+ADVANCE STATISTICS
+
+
