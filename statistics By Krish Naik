@@ -70,6 +70,51 @@ This is waht we call BOX PLOT
 
 
 ADVANCE STATISTICS
-1) Normal distribution
-2)
+1) distribution: 
+a) Normal Distribution 
+b) Standard Normal Distribution
+c) Z score
+d) log Normal distribution
+e) bernoulli distribution
+f) binomial distribution
+
+
+1) Distribution:
+Ages= {24,26,27,25,32,33,32......}
+
+a) Gaussian/ normal distrubution
+
+# Bell curve: from middle part of the bell curve both the parts will be equal in terms of amount of data (right and left part)
+ex: mean, median & mode
+
+in a bell curve: A). between the 1st S.D, 68% of the data will be present. 
+                 B). between the 2st S.D, 95% of the data will be present.
+                 C). between the 3st S.D, 99.7% of the data will be present.
+Emperical formula: 68 - 95- 99.7% Rule
+
+Ex: Height, weight, iris dataset(petal length, sepal length)
+
+Ex: s= {1,2,3,4,5,6,7}
+mean = 4, S.D= 1
+Where does 4.5 fall in terms of S.D
+
+Sol: after makin the bell curve, we can go further in number line according to S.D
+
+c). Z score: help i finding that how much away an number is from mean
+formula: (x - mean)/S.d
+
+Zscore also helps in finding to get the standard deviation.
+Zscore of sample => {-3,-2,-1,0,1,2,3}
+
+Therefore, this process is also called as STANDARDISATION(part of feature scaling)
+
+Now in normalization(-1 to 1): Minmax Scaler
+in CNN(image classification) we can use normalisation.
+
+Now: 
+
+
+
+
+
 
