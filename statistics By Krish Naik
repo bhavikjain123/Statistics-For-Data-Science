@@ -111,7 +111,8 @@ Therefore, this process is also called as STANDARDISATION(part of feature scalin
 Now in normalization(-1 to 1): Minmax Scaler
 in CNN(image classification) we can use normalisation.
 
-Now: 
+Zscore also helps in finding area of a bell curve.
+
 
 
 
