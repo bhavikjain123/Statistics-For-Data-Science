@@ -143,7 +143,7 @@ Sol: p(Q)= 4/52
      p(heart) = 13/52
      p(Q abd Heart) = 1/52
 
-p(Q or heart) = p(Q) + p(Heart) - p(Q & HEArt)
+p(Q or heart) = p(Q) + p(Heart) - p(Q & HEArt).
               = 4/52 + 13/52 - 1/52 = 16/52
 
 Multiplication Rule: 
