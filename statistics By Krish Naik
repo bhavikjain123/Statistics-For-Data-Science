@@ -138,6 +138,16 @@ Que: If I toss a coin, what is the probability of the coin landing on heads or t
 Sol: p(A or B) = P(AP +P(B)
                = 1/2+1/2= 1
 
+Que: randomly picking a card, what is the probability of chooshing a card that is queen or a heart?
+Sol: p(Q)= 4/52
+     p(heart) = 13/52
+     p(Q abd Heart) = 1/52
+
+p(Q or heart) = p(Q) + p(Heart) - p(Q & HEArt)
+              = 4/52 + 13/52 - 1/52 = 16/52
+
+Multiplication Rule: 
+
 
 
 
