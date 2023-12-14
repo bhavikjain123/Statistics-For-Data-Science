@@ -113,6 +113,38 @@ in CNN(image classification) we can use normalisation.
 
 Zscore also helps in finding area of a bell curve.
 
+to understand more about sscore watch video from 2:00:00.
+
+DAY:4
+1) IQR- python
+2) Probability
+3) PnC
+4)confidence intervals
+5) p values
+6) hypothesis testing
+
+2) Probability: is a measure of the liklihood of the event
+ex: rolling a dice
+
+Addition Rule (Probability, "or")
+
+#Mutual Exclusive event: two wvwnts are Mutual Exclusive if they cannpot occur at the same time
+ex: rolling a dice, tossing a coin
+
+#non-Mutual Exclusive: multiple events can occuyr at the same time.
+Ex: deck of cards.
+
+Que: If I toss a coin, what is the probability of the coin landing on heads or tails?
+Sol: p(A or B) = P(AP +P(B)
+               = 1/2+1/2= 1
+
+
+
+
+
+
+
+
 
 
 
