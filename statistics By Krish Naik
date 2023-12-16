@@ -227,7 +227,45 @@ therefore, if the p value comes within the 95% or the confidence interval, then 
  
 watch video from: 3:00:00 
 
+CHATGPT:
+Hypothesis testing is a statistical method used to make inferences about a population based on a sample of data. It involves the following steps:
 
+1) Formulate Hypotheses:
+a) Null Hypothesis (H₀): It is a statement of no effect or no difference.
+b) Alternative Hypothesis (H₁): It is a statement of an effect or a difference.
 
+2) Collect Data: Gather and analyze a sample from the population.
 
+3) Choose Significance Level (α):The significance level (often denoted by α) is the probability of rejecting the null hypothesis when it is true. Common choices are 0.05, 0.01, etc.
+
+4) Conduct the Test: Use statistical methods to evaluate the likelihood of observing the sample data if the null hypothesis were true.
+
+5) Make a Decision:If the p-value (probability value) is less than the chosen significance level, you reject the null hypothesis. If it's greater, you fail to reject the null hypothesis.
+
+DAY 5: 
+
+1) Type-1 n Type-2 Error:
+ Null hypothesis(Ho)= Coin is fair
+Alternative hyposthesis(Hi) = coin is not fair
+
+# reality check: either of the will be true
+# Decision: null is true or null is false
+
+Outcome 1: we reject the null hypo, when in reality it is false => YES, it is good decision
+Outcome 2: we reject the null hypo, when in reality it is true => TYPE-1 ERROR
+           ex: a person is given a death sentence by court, but he is not guilty.(TYPE-1 ERROR) => True Negative
+Outcome 3: We accept the null hypothesis, when in reality it is false => TYPE-2 ERROR => False Positive
+Outcome 4: We accept the null hypothesis, when in reality it is True => Yes, Good decision
+
+Confusion Matrix:
+
+2) one tail and two test: (video=> 3:20:00)
+ex: colleges in karnataka has 85% placement rate. A new college has opened and found that a sample of 150 student had a placement rate of 88%, S.D= 4%. 
+a) Does this college has a different placement rate? alpha = 0.05
+b)  Does this college has a placement rate greater than 85%?
+Sol: 
+a) this question has a two tailed test.
+b) this question has one tailed test.
+
+3) Confidence Interval:
 
