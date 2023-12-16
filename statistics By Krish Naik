@@ -174,17 +174,58 @@ Permutation: nPr= n!/(n-r)!
 Combination: nCr= n!/(r! * (n-r)!)
 
 # P-value (very important)
+ The p-value is a measure that helps you decide whether to reject the null hypothesis in a hypothesis test. 
+It represents the probability of obtaining results as extreme as, or more extreme than, the observed results, assuming the null hypothesis is true.
 
+# Low p-value (usually ≤ α): Indicates that the observed data is unlikely under the assumption of the null hypothesis. 
+This leads to rejecting the null hypothesis.
 
+# High p-value (> α): Suggests that the observed data is likely under the assumption of the null hypothesis. 
+This leads to failing to reject the null hypothesis.
 
+Example:
+Suppose you are testing whether a new drug is effective in treating a certain condition:
 
+1) Null Hypothesis (H₀): The new drug has no effect.
 
+2) Alternative Hypothesis (H₁): The new drug is effective.
 
+3) Data Collection:
+You administer the drug to a group of patients and collect data on their health outcomes.
 
+4) Significance Level (α): Let's choose α = 0.05.
 
+5) Conduct the Test:
+Analyze the data using statistical methods to calculate the p-value.
 
+6) Make a Decision:
+If the p-value is less than 0.05, you may reject the null hypothesis and conclude that there is evidence the drug is effective. 
+If the p-value is greater than 0.05, you may fail to reject the null hypothesis and conclude that there is not enough evidence to claim the drug is effective.
 
+Remember, the p-value is a tool to help you make decisions in the context of hypothesis testing.
+It doesn't prove that the null hypothesis is true or false, but it provides a measure of evidence against the null hypothesis.
+ 
+Example: when using the mouse pad, majoirity of times I will touch the center of the mouse pad and there will be less probability that I will touch corners
+Like I touch my pad 100-times and i touched center 80 times, then the probabilty of touching the center part will be p(c)= 0.8, and either corner side will be p= 0.1
 
+HYPOTHESIS TESTING:
+
+Ex: toss a coin 100 times, and lets find that is coin is fair or not.
+
+1) NULL hypo.: coin is fair
+2) Alternate hypo: coin is unfair.
+3) Experiment
+4) Reject or accept the null hypo: 
+
+Significant Value(alpha):0.05 (defined by domain expert)
+
+lets say... we got 30times head, will the coin be fair or not?
+therefore, it said that our experiment should be near to the mean
+
+=> 1- 0.05 = 0.95 or 95%(confidence interval)
+therefore, if the p value comes within the 95% or the confidence interval, then we can say it is fair coin
+ 
+watch video from: 3:00:00 
 
 
 
