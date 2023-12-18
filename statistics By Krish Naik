@@ -267,5 +267,70 @@ Sol:
 a) this question has a two tailed test.
 b) this question has one tailed test.
 
-3) Confidence Interval:
+3) Confidence Interval: (lets assume alpha = 0.05)
+This simply means we have to find both the end values of the interval.
 
+point Estimate: The value of ant stats, that estimates the value of a parameter.
+
+INFERENTIAL STATS.: we will work on samples and based on that, decision will be taken for population
+# mean, median or any value of sample can or cannot be same wit the values of population. They can be smaller, higher.
+
+#Confidence interval = (pointer estimate =/- margin of error)
+
+Que: On the quant test of cat exam, the S.D is known to be 100. A sample of 25 test takers has a mean of 520 score.
+Construsct a 95% CI about the mean.
+Sol: alpha = 0.05, S.D = 100, n = 25, mean= 520
+     1) whenever population S.D is given, we apply a test => Z test
+        Point Estimate +/- margin of error
+        mean + Z(alpha/2)*S.D/(n/2)^1/2
+        Upper value= 520 + Z(0.05/2)* 100/(25)^1/2 
+                    = 520 + 1.96(20) = 559.2
+similarly,lower value = 480.8
+
+When S.D is not given but sample S.D is given, then we use T-test.
+
+Que: On the quant test of cat exam, the sample S.D is known to be 100 and a sample of 25 test takers has a mean of 520 score.
+Construsct a 95% CI about the mean.
+Sol: alpha = 0.05, Std = 80, n = 25, mean= 520
+
+point estimate +/- margin of error
+ upper = 520 + 1.96(20) = 559.2
+ lower
+
+Now performing hypothesis-test:
+1)One Sample Z-test:
+Some condition: a) Population s.d is given
+                b) sample size >= 30
+
+QUE: 
+
+1)One Sample T-test:
+Some condition: a) Sample s.d is given
+                b) sample size >= 30
+
+
+DAY: 6
+1) CHI SQUARE
+2) C0- variance
+3) pearson correlation coefficient
+4) Spearman Rank correlation
+5) Practical implementation (Z-test, T-test, chi square test)
+6) F- test (ANOVA)
+
+1) CHI SQUARE TEST: it claims about population proportion.
+It is a non-parametric test, that is performed on categorical(nominal and ordinal) data
+
+
+QUE: In the 2000 indian census, the age of the individual in a small town were found to be the following:
+
+Less than 18 : 20%
+between 18-35 :30%
+greater than 35: 50%
+
+In 2010, age of n= 500 individuals were sampled, below are there results:
+Less than 18 : 121
+between 18-35 : 288
+greater than 35: 91
+
+using apha= 0.05, would u conclude the population distribution of ages has changed in the ast 10 years?
+SOL:  
